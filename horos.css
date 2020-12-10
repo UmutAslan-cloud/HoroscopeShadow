@@ -1,0 +1,31 @@
+main {
+    position: absolute;
+    top:8vw; left: 35%;
+}
+div{
+    width: 30vw;
+    height: 75vh;
+    border: 3px solid black;
+    border-radius: 10px 10px;
+    box-shadow: 5px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+div>section{
+    padding: 15px;
+}
+img {
+    width: 150px;
+    height: 160px;
+}
+#comment {
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,93,1) 35%, rgba(0,212,255,1) 100%);
+}
